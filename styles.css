@@ -1,0 +1,44 @@
+html{
+  font-family: Lato, Tahoma, sans-serif;
+  background-color: #f5f5f5;
+}
+
+main{
+  font-size: 16px;
+}
+article{
+  margin:auto;
+  max-width: 800px;
+}
+
+p{
+  line-height: 1.75;
+  margin-bottom: 1.2rem;
+}
+
+header{
+  width: 100%;
+  padding: 100px 0;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.5)), url(images/winners.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  text-align: center;
+}
+
+.header-img{
+  width: 100%;
+}
+
+h1{
+  color: #F3F3F3;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+header h1{
+  max-width: 800px;
+  margin: auto;
+}
