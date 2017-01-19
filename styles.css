@@ -1,0 +1,92 @@
+html{
+  font-family: Lato, Tahoma, sans-serif;
+  background-color: #f5f5f5;
+}
+
+main{
+  font-size: 16px;
+    color: #333;
+}
+article{
+  margin:auto;
+  max-width: 800px;
+    padding: 0 10px
+}
+
+p{
+  line-height: 1.75;
+  margin: 1.5rem 0;
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+header{
+  width: 100%;
+  padding: 100px 0 50px;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(images/winners.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  text-align: center;
+}
+
+.header-img{
+  width: 100%;
+}
+
+h1,h2,h3{
+  color: #F3F3F3;
+}
+h4,h5,h6{
+    color: #444;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 1rem;
+}
+h5{
+    font-size: .70rem;
+}
+
+header h1, h2{
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+header h2{
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+h4.author, h5.timestamp{
+    margin: .25rem 0;
+}
+
+footer{
+    padding: 50px; auto;
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
+
+#img-flying{
+    width: 75%;
+}
